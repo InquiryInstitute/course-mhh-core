@@ -17,24 +17,24 @@ const seasons = [
     title: "Electric Sheep", 
     tagline: "Invitation, orientation, self-test",
     color: "amber",
-    dates: "Open enrollment until May 2026",
-    href: "/course-mhh-electric-sheep"
+    dates: "Open enrollment — $300",
+    href: "https://dcmcshan.github.io/course-mhh-electric-sheep/"
   },
   { 
     number: 1, 
     title: "Voight-Kampff", 
     tagline: "Technical spine, construction, examination",
     color: "cyan",
-    dates: "February – May 2026",
-    href: "/course-mhh-voight-kampff"
+    dates: "February – May 2026 — $1,200",
+    href: "https://dcmcshan.github.io/course-mhh-voight-kampff/"
   },
   { 
     number: 2, 
     title: "More Human Than Human", 
     tagline: "Synthesis, refusal, creation",
     color: "rose",
-    dates: "August – November 2026",
-    href: "/course-mhh-more-human-than-human"
+    dates: "August – November 2026 — $1,200",
+    href: "https://dcmcshan.github.io/course-mhh-more-human-than-human/"
   }
 ];
 ---
@@ -47,8 +47,11 @@ const seasons = [
       <h1 class="font-display text-5xl md:text-8xl text-zinc-100 mb-6">
         More Human<br/>Than Human
       </h1>
-      <p class="text-xl text-zinc-400 max-w-2xl mx-auto leading-relaxed mb-8">
+      <p class="text-xl text-zinc-400 max-w-2xl mx-auto leading-relaxed mb-4">
         A Three-Season Inquiry Arc on Humanity, Detection, and Refusal
+      </p>
+      <p class="text-lg text-zinc-300 max-w-2xl mx-auto leading-relaxed mb-8">
+        Learn to build, critique, and ultimately question the systems that decide who counts as human.
       </p>
       <div class="flex justify-center gap-8 text-sm font-mono text-zinc-600">
         <span>Lead: <span class="text-zinc-400">a.turing</span></span>
@@ -250,15 +253,155 @@ const seasons = [
       </div>
     </section>
 
+    <!-- Who This Is For -->
+    <section class="mb-20">
+      <h2 class="font-display text-3xl text-zinc-100 mb-6">Who This Is For</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="border border-green-500/30 rounded-lg p-6 bg-zinc-900/30">
+          <h3 class="font-mono text-green-400 text-sm mb-4">IDEAL FOR</h3>
+          <ul class="space-y-3 text-zinc-300">
+            <li class="flex items-start gap-3">
+              <span class="text-green-500">✓</span>
+              <span>Developers building AI/ML systems who want ethical grounding</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="text-green-500">✓</span>
+              <span>Researchers studying AI detection, verification, or identity</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="text-green-500">✓</span>
+              <span>Philosophers and ethicists engaging with technology</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="text-green-500">✓</span>
+              <span>Policy professionals working on AI governance</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="text-green-500">✓</span>
+              <span>Anyone who has been on the wrong side of an algorithm</span>
+            </li>
+          </ul>
+        </div>
+        <div class="border border-zinc-700/50 rounded-lg p-6 bg-zinc-900/30">
+          <h3 class="font-mono text-zinc-500 text-sm mb-4">NOT FOR</h3>
+          <ul class="space-y-3 text-zinc-500">
+            <li class="flex items-start gap-3">
+              <span class="text-zinc-600">✗</span>
+              <span>Those seeking quick certification for career advancement</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="text-zinc-600">✗</span>
+              <span>Those wanting to "beat" AI detection systems</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="text-zinc-600">✗</span>
+              <span>Those uncomfortable with ambiguity and open questions</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="mb-20">
+      <h2 class="font-display text-3xl text-zinc-100 mb-8">Frequently Asked Questions</h2>
+      <div class="space-y-4">
+        <details class="border border-zinc-800 rounded-lg bg-zinc-900/30 group">
+          <summary class="p-6 cursor-pointer text-zinc-100 hover:text-rose-400 transition-colors font-medium">
+            Do I need to know how to code?
+          </summary>
+          <div class="px-6 pb-6 text-zinc-400">
+            Season 0 requires no coding. Season 1 involves building simplified detection systems 
+            in Python/JavaScript — basic programming experience is expected. We provide scaffolding 
+            and peer support for those stretching their skills.
+          </div>
+        </details>
+        <details class="border border-zinc-800 rounded-lg bg-zinc-900/30">
+          <summary class="p-6 cursor-pointer text-zinc-100 hover:text-rose-400 transition-colors font-medium">
+            What's the time commitment?
+          </summary>
+          <div class="px-6 pb-6 text-zinc-400">
+            Season 0: Self-paced, ~10-15 hours total. Seasons 1-2: Cohort-based, expect 8-10 hours/week 
+            including symposia, reading, and implementation work.
+          </div>
+        </details>
+        <details class="border border-zinc-800 rounded-lg bg-zinc-900/30">
+          <summary class="p-6 cursor-pointer text-zinc-100 hover:text-rose-400 transition-colors font-medium">
+            Are the faculty real people?
+          </summary>
+          <div class="px-6 pb-6 text-zinc-400">
+            No. Faculty are AI reconstructions of historical thinkers — designed to embody their 
+            intellectual positions and challenge your thinking. They are explicitly artificial, 
+            and this is part of the point.
+          </div>
+        </details>
+        <details class="border border-zinc-800 rounded-lg bg-zinc-900/30">
+          <summary class="p-6 cursor-pointer text-zinc-100 hover:text-rose-400 transition-colors font-medium">
+            What does "Refuse" mean as an assessment outcome?
+          </summary>
+          <div class="px-6 pb-6 text-zinc-400">
+            Refuse is an honorable exit — recognition that genuine inquiry sometimes leads to 
+            the conclusion that participation itself is problematic. It's documented, respected, 
+            and not a failure. You keep credentials earned in earlier seasons.
+          </div>
+        </details>
+        <details class="border border-zinc-800 rounded-lg bg-zinc-900/30">
+          <summary class="p-6 cursor-pointer text-zinc-100 hover:text-rose-400 transition-colors font-medium">
+            Can I take just one season?
+          </summary>
+          <div class="px-6 pb-6 text-zinc-400">
+            Season 0 is standalone. Season 1 can be taken alone and awards its own badge. 
+            Season 2 requires Season 1 completion. The full certificate requires all three.
+          </div>
+        </details>
+        <details class="border border-zinc-800 rounded-lg bg-zinc-900/30">
+          <summary class="p-6 cursor-pointer text-zinc-100 hover:text-rose-400 transition-colors font-medium">
+            Are scholarships available?
+          </summary>
+          <div class="px-6 pb-6 text-zinc-400">
+            Yes. We offer need-based scholarships for Seasons 1 and 2. Applications open with 
+            enrollment. Season 0 is priced accessibly at $300.
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="mb-20">
+      <div class="border-2 border-rose-500/50 rounded-lg p-8 md:p-12 bg-gradient-to-b from-rose-500/10 to-transparent text-center">
+        <h2 class="font-display text-3xl text-zinc-100 mb-4">Begin Your Inquiry</h2>
+        <p class="text-zinc-400 mb-8 max-w-xl mx-auto">
+          Season 0 is open now. Start with Philip K. Dick's question and see where it leads.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a 
+            href="https://dcmcshan.github.io/course-mhh-electric-sheep/" 
+            class="inline-block bg-rose-500 hover:bg-rose-600 text-white font-mono px-8 py-4 rounded-lg transition-colors"
+          >
+            Start Season 0 — $300
+          </a>
+          <a 
+            href="mailto:hello@inquiry.institute?subject=MHH%20Waitlist"
+            class="inline-block border border-zinc-600 hover:border-zinc-500 text-zinc-300 font-mono px-8 py-4 rounded-lg transition-colors"
+          >
+            Join S1 Waitlist
+          </a>
+        </div>
+        <p class="text-zinc-600 text-sm mt-6">
+          Season 1 cohort begins February 2026. Limited to 25 students.
+        </p>
+      </div>
+    </section>
+
     <!-- Resources -->
     <section class="mb-20">
       <h2 class="font-display text-3xl text-zinc-100 mb-6">Resources</h2>
       <div class="grid md:grid-cols-2 gap-4">
-        <a href="STYLE_BIBLE.md" class="border border-zinc-800 rounded-lg p-6 bg-zinc-900/30 hover:border-zinc-700 transition-colors">
+        <a href="https://github.com/dcmcshan/course-mhh-core/blob/main/STYLE_BIBLE.md" class="border border-zinc-800 rounded-lg p-6 bg-zinc-900/30 hover:border-zinc-700 transition-colors">
           <h3 class="text-zinc-100 mb-2">Style Bible</h3>
           <p class="text-zinc-500 text-sm">Design system, colors, typography</p>
         </a>
-        <a href="FACULTY_CHARTER.md" class="border border-zinc-800 rounded-lg p-6 bg-zinc-900/30 hover:border-zinc-700 transition-colors">
+        <a href="https://github.com/dcmcshan/course-mhh-core/blob/main/FACULTY_CHARTER.md" class="border border-zinc-800 rounded-lg p-6 bg-zinc-900/30 hover:border-zinc-700 transition-colors">
           <h3 class="text-zinc-100 mb-2">Faculty Charter</h3>
           <p class="text-zinc-500 text-sm">Agent design principles</p>
         </a>

@@ -19,6 +19,54 @@
 
 ---
 
+## Peer Review Process
+
+All lectures, essays, and content undergo informal peer review before publication.
+
+### Review Stages
+1. **Draft** → Author self-review
+2. **Internal Review** → 1-2 team members review
+3. **External Review** → 1-2 subject matter experts / target audience members
+4. **Final Edit** → Incorporate feedback, publish
+
+### Reviewer Pool (To Recruit)
+- [ ] Recruit 2-3 **AI/ML practitioners** for technical accuracy
+- [ ] Recruit 2-3 **philosophy/ethics academics** for conceptual rigor
+- [ ] Recruit 2-3 **educators** for pedagogical clarity
+- [ ] Recruit 2-3 **target audience members** (potential students) for accessibility
+- [ ] Recruit 1-2 **writers/editors** for prose quality
+- [ ] Create reviewer guidelines document
+- [ ] Set up shared folder for review drafts (Google Drive / Notion / GitHub)
+- [ ] Create feedback template (structured but lightweight)
+
+### Review Compensation
+- [ ] Decide on compensation model:
+  - [ ] Option A: Paid per review ($50-100/piece)
+  - [ ] Option B: Free access to course
+  - [ ] Option C: Acknowledgment + credit
+  - [ ] Option D: Mix based on reviewer preference
+- [ ] Document in reviewer agreement
+
+### Review Tracking
+| Content Piece | Draft Done | Internal Review | External Review | Final |
+|---------------|------------|-----------------|-----------------|-------|
+| S0 Reading Guide | 🔴 | 🔴 | 🔴 | 🔴 |
+| S0 Module 1 | 🔴 | 🔴 | 🔴 | 🔴 |
+| S0 Module 2 | 🔴 | 🔴 | 🔴 | 🔴 |
+| S0 Module 3 | 🔴 | 🔴 | 🔴 | 🔴 |
+| S0 Module 4 | 🔴 | 🔴 | 🔴 | 🔴 |
+| S0 Module 5 | 🔴 | 🔴 | 🔴 | 🔴 |
+| S0 Module 6 | 🔴 | 🔴 | 🔴 | 🔴 |
+| S1 Lecture 1 | 🔴 | 🔴 | 🔴 | 🔴 |
+| S1 Lecture 2 | 🔴 | 🔴 | 🔴 | 🔴 |
+| S1 Lecture 3 | 🔴 | 🔴 | 🔴 | 🔴 |
+| S1 Lecture 4 | 🔴 | 🔴 | 🔴 | 🔴 |
+| S1 Lecture 5 | 🔴 | 🔴 | 🔴 | 🔴 |
+| S1 Lecture 6 | 🔴 | 🔴 | 🔴 | 🔴 |
+| S2 Core Content | 🔴 | 🔴 | 🔴 | 🔴 |
+
+---
+
 # PART I: CONTENT DEVELOPMENT
 
 ---
@@ -66,6 +114,17 @@
 - [ ] Create glossary of terms (Mercerism, kipple, andy, etc.)
 - [ ] Design reading schedule (suggested 2-week pace)
 
+#### Peer Review: Reading Guide
+- [ ] Self-review: Check for spoilers calibration
+- [ ] Self-review: Verify passage references accurate
+- [ ] Internal review: Team member reads alongside book
+- [ ] Internal review: Incorporate feedback
+- [ ] External review: Send to PKD scholar/enthusiast
+- [ ] External review: Send to someone unfamiliar with Dick
+- [ ] External review: Incorporate feedback
+- [ ] Final edit pass
+- [ ] Mark review tracking table as complete
+
 ### 1.2 Module 1: Humanity as a Testable Property
 
 #### Essay Content
@@ -82,9 +141,19 @@
 - [ ] Write conclusion (500 words)
 - [ ] Add citations and references
 - [ ] Create bibliography
-- [ ] Peer review draft
+
+#### Peer Review: Module 1
+- [ ] Self-review: Read aloud, check flow
+- [ ] Self-review: Verify all claims sourced
+- [ ] Internal review: Send to team member
+- [ ] Internal review: Incorporate feedback
+- [ ] External review: Send to ethics/philosophy reviewer
+- [ ] External review: Send to target audience reviewer
+- [ ] External review: Incorporate feedback
 - [ ] Final edit pass
+- [ ] Proofread for typos, grammar
 - [ ] Format for web display
+- [ ] Mark review tracking table as complete
 
 #### Media
 - [ ] Source 3-5 historical images (public domain)
@@ -134,8 +203,19 @@
   - [ ] Design in Figma/Canva
   - [ ] Export as SVG/PNG
   - [ ] Add alt text
-- [ ] Peer review
-- [ ] Final edit
+
+#### Peer Review: Module 2
+- [ ] Self-review: Check historical accuracy
+- [ ] Self-review: Ensure sensitive topics handled carefully
+- [ ] Internal review: Send to team member
+- [ ] Internal review: Incorporate feedback
+- [ ] External review: Send to psychology/history expert
+- [ ] External review: Send to disability/neurodiversity reviewer (for empathy section)
+- [ ] External review: Incorporate feedback
+- [ ] Final edit pass
+- [ ] Proofread
+- [ ] Format for web
+- [ ] Mark review tracking table as complete
 
 #### Primary Sources
 - [ ] Find Binet's original writing (translated)
@@ -202,6 +282,19 @@
 - [ ] Question 2: "Design a CAPTCHA that would fail for you..."
 - [ ] Question 3: "What does it mean that AI can now solve..."
 
+#### Peer Review: Module 3
+- [ ] Self-review: Verify technical accuracy
+- [ ] Self-review: Check accessibility discussion is respectful
+- [ ] Internal review: Send to team member
+- [ ] Internal review: Incorporate feedback
+- [ ] External review: Send to security/web expert
+- [ ] External review: Send to accessibility advocate
+- [ ] External review: Incorporate feedback
+- [ ] Final edit pass
+- [ ] Proofread
+- [ ] Format for web
+- [ ] Mark review tracking table as complete
+
 ### 1.5 Module 4: Behavioral Scoring
 
 #### Essay Content
@@ -258,6 +351,19 @@
 - [ ] Question 1: "List every score that follows you..."
 - [ ] Question 2: "Should there be a 'right to be unscored'?"
 - [ ] Question 3: "How would Dick's androids fare in a scored society?"
+
+#### Peer Review: Module 4
+- [ ] Self-review: Verify China coverage is accurate, not sensationalized
+- [ ] Self-review: Check case studies for sensitivity
+- [ ] Internal review: Send to team member
+- [ ] Internal review: Incorporate feedback
+- [ ] External review: Send to China/surveillance studies expert
+- [ ] External review: Send to credit/finance journalist or advocate
+- [ ] External review: Incorporate feedback
+- [ ] Final edit pass
+- [ ] Proofread
+- [ ] Format for web
+- [ ] Mark review tracking table as complete
 
 ### 1.6 Module 5: The Penfield Mood Organ
 
@@ -317,6 +423,19 @@
 - [ ] Question 2: "Is optimizing mood different from authentic experience?"
 - [ ] Question 3: "When is it appropriate to feel 'bad' about the world?"
 
+#### Peer Review: Module 5
+- [ ] Self-review: Ensure mental health discussion is sensitive
+- [ ] Self-review: Verify neuroscience accuracy
+- [ ] Internal review: Send to team member
+- [ ] Internal review: Incorporate feedback
+- [ ] External review: Send to mental health professional
+- [ ] External review: Send to affective computing researcher
+- [ ] External review: Incorporate feedback
+- [ ] Final edit pass
+- [ ] Proofread
+- [ ] Format for web
+- [ ] Mark review tracking table as complete
+
 ### 1.7 Module 6: The Voight-Kampff Ritual
 
 #### Essay Content
@@ -362,6 +481,19 @@
 - [ ] Question 1: "What question would you fail?"
 - [ ] Question 2: "Design a 3-question V-K test for 2026"
 - [ ] Question 3: "If you were an android, would you want to know?"
+
+#### Peer Review: Module 6
+- [ ] Self-review: Ensure synthesis of previous modules
+- [ ] Self-review: Check S1 preview is accurate
+- [ ] Internal review: Send to team member
+- [ ] Internal review: Incorporate feedback
+- [ ] External review: Send to Blade Runner/Dick scholar
+- [ ] External review: Send to potential S0 student for clarity
+- [ ] External review: Incorporate feedback
+- [ ] Final edit pass
+- [ ] Proofread
+- [ ] Format for web
+- [ ] Mark review tracking table as complete
 
 ### 1.8 Dramatic Component: Voight-Kampff Scene
 
@@ -531,6 +663,18 @@
 - [ ] Harnad, "The Turing Test is Not a Trick" (1992)
 - [ ] Create reading guide with questions
 
+#### Peer Review: S1 Lecture 1 (Turing Test)
+- [ ] Self-review: Verify philosophical accuracy
+- [ ] Self-review: Ensure code examples work
+- [ ] Internal review: Send to team member
+- [ ] Internal review: Incorporate feedback
+- [ ] External review: Send to AI/philosophy researcher
+- [ ] External review: Send to CS educator for pedagogy
+- [ ] External review: Incorporate feedback
+- [ ] Review slides for accessibility
+- [ ] Final edit pass
+- [ ] Mark review tracking table as complete
+
 ### 2.3 System 2: CAPTCHA Archaeology
 
 #### Research & Content
@@ -565,6 +709,18 @@
 - [ ] Create "Break a CAPTCHA" exercise
 - [ ] Provide 10 CAPTCHAs to analyze/break
 - [ ] Discuss ethics of CAPTCHA breaking
+
+#### Peer Review: S1 Lecture 2 (CAPTCHA)
+- [ ] Self-review: Verify technical accuracy
+- [ ] Self-review: Ensure CAPTCHA examples are clear
+- [ ] Internal review: Send to team member
+- [ ] Internal review: Incorporate feedback
+- [ ] External review: Send to web security researcher
+- [ ] External review: Send to accessibility expert
+- [ ] External review: Incorporate feedback
+- [ ] Review slides for accessibility
+- [ ] Final edit pass
+- [ ] Mark review tracking table as complete
 
 ### 2.4 System 3: AI Text Detection
 
@@ -617,6 +773,18 @@
 - [ ] Write case study: Writer's career damaged by false positive
 - [ ] Write case study: Institution's detector policy
 
+#### Peer Review: S1 Lecture 3 (AI Detection)
+- [ ] Self-review: Verify detector survey is current
+- [ ] Self-review: Ensure false positive discussion is balanced
+- [ ] Internal review: Send to team member
+- [ ] Internal review: Incorporate feedback
+- [ ] External review: Send to NLP/ML researcher
+- [ ] External review: Send to educator dealing with AI detection policies
+- [ ] External review: Incorporate feedback
+- [ ] Review case studies for accuracy
+- [ ] Final edit pass
+- [ ] Mark review tracking table as complete
+
 ### 2.5 System 4: Stylometry
 
 #### Research & Content
@@ -657,6 +825,17 @@
 - [ ] Whistleblower protection issues
 - [ ] Authoritarian use cases
 - [ ] When should stylometry be used/forbidden?
+
+#### Peer Review: S1 Lecture 4 (Stylometry)
+- [ ] Self-review: Verify historical accuracy
+- [ ] Self-review: Ensure code examples are reproducible
+- [ ] Internal review: Send to team member
+- [ ] Internal review: Incorporate feedback
+- [ ] External review: Send to computational linguistics researcher
+- [ ] External review: Send to privacy/security researcher
+- [ ] External review: Incorporate feedback
+- [ ] Final edit pass
+- [ ] Mark review tracking table as complete
 
 ### 2.6 System 5: Watermarking
 
@@ -699,6 +878,17 @@
 - [ ] Assign positions
 - [ ] Provide evidence packets
 - [ ] Facilitate discussion
+
+#### Peer Review: S1 Lecture 5 (Watermarking)
+- [ ] Self-review: Verify technical accuracy of schemes
+- [ ] Self-review: Ensure policy discussion is balanced
+- [ ] Internal review: Send to team member
+- [ ] Internal review: Incorporate feedback
+- [ ] External review: Send to cryptography/security researcher
+- [ ] External review: Send to AI policy researcher
+- [ ] External review: Incorporate feedback
+- [ ] Final edit pass
+- [ ] Mark review tracking table as complete
 
 ### 2.7 System 6: Liveness & Biometric Verification
 
@@ -747,6 +937,18 @@
   - [ ] China's surveillance state
   - [ ] Wrongful arrests from facial recognition
 - [ ] Discuss: When is biometric verification acceptable?
+
+#### Peer Review: S1 Lecture 6 (Biometrics)
+- [ ] Self-review: Verify technical accuracy
+- [ ] Self-review: Ensure bias discussion is substantive
+- [ ] Internal review: Send to team member
+- [ ] Internal review: Incorporate feedback
+- [ ] External review: Send to biometrics/CV researcher
+- [ ] External review: Send to civil liberties advocate
+- [ ] External review: Send to disability/accessibility expert
+- [ ] External review: Incorporate feedback
+- [ ] Final edit pass
+- [ ] Mark review tracking table as complete
 
 ### 2.8 Symposia
 
@@ -808,6 +1010,17 @@
 - [ ] Prepare contingency topics
 - [ ] Allow cohort to set agenda
 
+#### Peer Review: Symposia Materials
+- [ ] Self-review: Ensure all provocations are thought-provoking
+- [ ] Self-review: Check discussion guides for clarity
+- [ ] Internal review: Run mock symposium with team
+- [ ] Internal review: Incorporate feedback on flow and timing
+- [ ] External review: Send discussion guides to experienced facilitator
+- [ ] External review: Incorporate feedback
+- [ ] Review heretic assignments for appropriateness
+- [ ] Final edit pass on all symposia materials
+- [ ] Create facilitator cheat sheets
+
 ### 2.9 Maieutic Examination (S1 Final)
 
 #### Examination Design
@@ -861,6 +1074,18 @@
   - [ ] Organize by theme
   - [ ] Create reading schedule
 
+#### Peer Review: S2 Reading Guides
+- [ ] Self-review: Verify excerpt selections are representative
+- [ ] Self-review: Ensure guides are accessible to non-specialists
+- [ ] Internal review: Send to team member
+- [ ] Internal review: Incorporate feedback
+- [ ] External review: Send to Arendt scholar
+- [ ] External review: Send to Foucault scholar
+- [ ] External review: Send to AI ethics researcher for contemporary papers
+- [ ] External review: Incorporate feedback
+- [ ] Final edit pass
+- [ ] Mark review tracking table as complete
+
 ### 3.2 Detector Collapse Scenarios
 
 #### Scenario Design
@@ -888,6 +1113,16 @@
 - [ ] Assign roles (student, administrator, tech, etc.)
 - [ ] Write discussion guides
 - [ ] Plan debrief process
+
+#### Peer Review: Collapse Scenarios
+- [ ] Self-review: Ensure scenarios are realistic
+- [ ] Self-review: Check roles are balanced and playable
+- [ ] Internal review: Run pilot simulation with team
+- [ ] Internal review: Incorporate feedback
+- [ ] External review: Send to educator with policy experience
+- [ ] External review: Send to student who has dealt with AI detection accusations
+- [ ] External review: Incorporate feedback
+- [ ] Final edit pass
 
 ### 3.3 Role-Reversal Examinations
 
@@ -941,6 +1176,16 @@
   - [ ] What are the costs of refusal?
   - [ ] What are the costs of compliance?
 
+#### Peer Review: Refusal Modules
+- [ ] Self-review: Ensure refusal is presented as legitimate, not failure
+- [ ] Self-review: Verify Weizenbaum representation is accurate
+- [ ] Internal review: Send to team member
+- [ ] Internal review: Incorporate feedback
+- [ ] External review: Send to tech ethics researcher
+- [ ] External review: Send to someone who has "refused" in their career
+- [ ] External review: Incorporate feedback
+- [ ] Final edit pass
+
 ### 3.6 Symposia
 
 #### Symposium 1: Collapse
@@ -976,6 +1221,15 @@
 #### Symposium 7: Unscheduled
 - [ ] Reserve for emergent needs
 
+#### Peer Review: S2 Symposia Materials
+- [ ] Self-review: Ensure cohesion with S1 symposia format
+- [ ] Self-review: Verify heretic assignments are appropriate
+- [ ] Internal review: Run mock S2 symposium with team
+- [ ] Internal review: Incorporate feedback
+- [ ] External review: Send to experienced facilitator
+- [ ] External review: Incorporate feedback
+- [ ] Final edit pass on all S2 symposia materials
+
 ### 3.7 Final Examination
 
 #### Design
@@ -1004,6 +1258,17 @@
 - [ ] Create refusal documentation template
 - [ ] Design alternative credential (if any)
 - [ ] Ensure dignity in refusal process
+
+#### Peer Review: Final Examination Materials
+- [ ] Self-review: Ensure central question is genuinely open
+- [ ] Self-review: Verify rubric allows for intellectual diversity
+- [ ] Internal review: Send to team member
+- [ ] Internal review: Run mock examination
+- [ ] Internal review: Incorporate feedback
+- [ ] External review: Send to educator experienced in oral exams
+- [ ] External review: Send to philosopher for central question feedback
+- [ ] External review: Incorporate feedback
+- [ ] Final edit pass
 
 ---
 
@@ -1274,6 +1539,46 @@
 - [ ] Create SVG versions
 - [ ] Create social media versions
 - [ ] Add to static sites
+
+### 8.3 Peer Review: Faculty Agents
+
+#### Corpus Review
+- [ ] Internal review: Verify corpus completeness for each faculty
+- [ ] External review: Send Turing corpus to Turing scholar/historian
+- [ ] External review: Send Arendt corpus to political philosophy scholar
+- [ ] External review: Send Dick corpus to PKD scholar/SF historian
+- [ ] External review: Send Foucault corpus to Foucault scholar
+- [ ] External review: Send Shannon corpus to information theory expert
+- [ ] External review: Send Weizenbaum corpus to computing history scholar
+- [ ] External review: Send Nabokov corpus to literary scholar
+- [ ] Incorporate all corpus feedback
+
+#### System Prompt Review
+- [ ] Internal review: Test all prompts for voice consistency
+- [ ] Internal review: Test all prompts for factual accuracy
+- [ ] Internal review: Test all prompts for pedagogical effectiveness
+- [ ] External review: Have subject matter expert "interview" each agent
+  - [ ] Turing expert reviews Turing agent
+  - [ ] Arendt expert reviews Arendt agent
+  - [ ] Dick expert reviews Dick agent
+  - [ ] Foucault expert reviews Foucault agent
+  - [ ] Shannon expert reviews Shannon agent
+  - [ ] Weizenbaum expert reviews Weizenbaum agent
+  - [ ] Nabokov expert reviews Nabokov agent
+- [ ] External review: Collect feedback on mischaracterizations
+- [ ] External review: Incorporate feedback
+- [ ] Test agents with potential students for accessibility
+
+#### Heretic Mode Review
+- [ ] Internal review: Test heretic dialogues for productiveness
+- [ ] External review: Verify heretic positions are intellectually honest
+- [ ] Ensure heretics don't strawman their own views
+
+#### Ethical Review
+- [ ] Review: Are we representing deceased thinkers responsibly?
+- [ ] Review: Are we handling sensitive biographical details appropriately?
+- [ ] Review: Would the estate/legacy of each thinker object?
+- [ ] Document ethical considerations and decisions
 
 ---
 

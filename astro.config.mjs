@@ -3,7 +3,7 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://dcmcshan.github.io',
+  site: 'https://inquiryinstitute.github.io',
   base: '/course-mhh-core',
   integrations: [tailwind()],
   output: 'static',

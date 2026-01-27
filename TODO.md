@@ -1158,7 +1158,77 @@ All lectures, essays, and content undergo informal peer review before publicatio
 - [ ] Hold project check-in sessions
 - [ ] Facilitate peer feedback
 
-### 3.5 Refusal Protocols
+### 3.5 Capstone Project: Build an AI That Passes Voight-Kampff
+
+> **The ultimate test of understanding a test is building something that can pass it.**
+
+Students create an AI system that can pass one of the Voight-Kampff-style tests built in Season 1 — then confront what that achievement means.
+
+#### Project Design
+- [ ] Define project scope and constraints:
+  - [ ] Must use a test designed by S1 cohort (not their own)
+  - [ ] Test must be "black box" — limited knowledge of internals
+  - [ ] Define "passing" criteria (match human baseline? fool evaluator?)
+  - [ ] Set compute/resource limits
+- [ ] Create ethical boundaries:
+  - [ ] Cannot be used for actual deception
+  - [ ] Must be disclosed as AI if deployed
+  - [ ] Sandbox environment only
+  - [ ] Delete after examination
+- [ ] Design presentation requirements:
+  - [ ] Demonstrate the AI passing the test
+  - [ ] Explain the approach taken
+  - [ ] Reflect: What did this reveal about the test?
+  - [ ] Reflect: What does "passing" actually mean?
+
+#### Technical Framework
+- [ ] Provide starter code / scaffolding:
+  - [ ] API for accessing S1 tests
+  - [ ] Evaluation harness
+  - [ ] Baseline implementations to compare against
+- [ ] Define allowed technologies:
+  - [ ] LLMs (with provider restrictions?)
+  - [ ] Fine-tuning (allowed/prohibited?)
+  - [ ] Behavioral mimicry techniques
+  - [ ] Multimodal approaches
+- [ ] Create submission format:
+  - [ ] Code repository structure
+  - [ ] Documentation requirements
+  - [ ] Test logs / transcripts
+
+#### Philosophical Framing
+- [ ] Write module: "The Imitation Game Revisited"
+  - [ ] What Turing actually proposed
+  - [ ] The difference between passing and being
+  - [ ] Why this exercise isn't "cheating"
+- [ ] Write module: "Arms Race Thinking"
+  - [ ] Detection → evasion → better detection → better evasion
+  - [ ] Why this cycle is exhausting and possibly pointless
+  - [ ] Weizenbaum's warning about ELIZA
+- [ ] Reflection prompts:
+  - [ ] "What did you learn about the test by beating it?"
+  - [ ] "Would you trust your own AI? Why or why not?"
+  - [ ] "Should this AI be allowed to exist outside this course?"
+
+#### Integration with Final Examination
+- [ ] Project presentation is part of final exam
+- [ ] Faculty panel questions the approach
+- [ ] Defense: "Why did you build this? What does it prove?"
+- [ ] Synthesis: Connect to refusal — when should you not build?
+
+#### Peer Review: Capstone Project
+- [ ] Self-review: Verify ethical constraints are clear and enforceable
+- [ ] Self-review: Ensure technical requirements are achievable in timeframe
+- [ ] Internal review: Pilot with team member building sample submission
+- [ ] Internal review: Incorporate feedback
+- [ ] External review: Send to AI safety researcher — are the safeguards adequate?
+- [ ] External review: Send to S1 test designer — is this a fair challenge?
+- [ ] External review: Incorporate feedback
+- [ ] Final edit pass
+
+---
+
+### 3.6 Refusal Protocols
 
 #### Content Development
 - [ ] Write module: "The ethics of refusal"
@@ -1186,7 +1256,7 @@ All lectures, essays, and content undergo informal peer review before publicatio
 - [ ] External review: Incorporate feedback
 - [ ] Final edit pass
 
-### 3.6 Symposia
+### 3.7 Symposia
 
 #### Symposium 1: Collapse
 - [ ] Design opening: "The detector failed"
@@ -1230,7 +1300,7 @@ All lectures, essays, and content undergo informal peer review before publicatio
 - [ ] External review: Incorporate feedback
 - [ ] Final edit pass on all S2 symposia materials
 
-### 3.7 Final Examination
+### 3.8 Final Examination
 
 #### Design
 - [ ] Define format:
@@ -2630,10 +2700,10 @@ All lectures, essays, and content undergo informal peer review before publicatio
 ## 35. INTERNAL LINKS
 
 ### Live Sites
-- [Arc Overview](https://dcmcshan.github.io/course-mhh-core/)
-- [Season 0: Electric Sheep](https://dcmcshan.github.io/course-mhh-electric-sheep/)
-- [Season 1: Voight-Kampff](https://dcmcshan.github.io/course-mhh-voight-kampff/)
-- [Season 2: More Human Than Human](https://dcmcshan.github.io/course-mhh-more-human-than-human/)
+- [Arc Overview](https://inquiryinstitute.github.io/course-mhh-core/)
+- [Season 0: Electric Sheep](https://inquiryinstitute.github.io/course-mhh-electric-sheep/)
+- [Season 1: Voight-Kampff](https://inquiryinstitute.github.io/course-mhh-voight-kampff/)
+- [Season 2: More Human Than Human](https://inquiryinstitute.github.io/course-mhh-more-human-than-human/)
 
 ### Design Documents
 - [STYLE_BIBLE.md](./STYLE_BIBLE.md)

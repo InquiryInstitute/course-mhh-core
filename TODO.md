@@ -6,12 +6,12 @@
 
 ## Status Dashboard
 
-| Component | S0: Electric Sheep | S1: Voight-Kampff | S2: More Human Than Human |
+| Component | S0: Electric Sheep | S1: Voight-Kampff | S2: Cells Interlinked |
 |-----------|-------------------|-------------------|---------------------------|
 | Landing Page | 🟡 Draft | 🟡 Draft | 🟡 Draft |
-| Content | 🔴 Not Started | 🔴 Not Started | 🔴 Not Started |
+| Content | 🟡 Skeleton | 🟡 Skeleton | 🟡 Skeleton |
 | Faculty Agents | 🟡 Defined | 🔴 Not Built | 🔴 Not Built |
-| Assessment | 🟡 Designed | 🔴 Not Built | 🔴 Not Built |
+| Assessment | 🟡 Designed | 🟡 Designed | 🟡 Designed |
 | Payments | 🔴 Not Set Up | 🔴 Not Set Up | 🔴 Not Set Up |
 | Marketing | 🔴 Not Started | 🔴 Not Started | 🔴 Not Started |
 
@@ -1300,34 +1300,66 @@ Students create an AI system that can pass one of the Voight-Kampff-style tests 
 - [ ] External review: Incorporate feedback
 - [ ] Final edit pass on all S2 symposia materials
 
-### 3.8 Final Examination
+### 3.8 Final Examination: "The Baseline Test"
 
-#### Design
-- [ ] Define format:
-  - [ ] Multi-faculty panel (3+ agents)
-  - [ ] Central question approach
-  - [ ] Student defends position
-  - [ ] Panel challenges from multiple perspectives
-  - [ ] Duration: 2 hours
-- [ ] Define outcomes:
-  - [ ] Pass: Receives credential
-  - [ ] Revise: Opportunity to strengthen
-  - [ ] Refuse: Valid, documented pedagogical outcome
-- [ ] Write panel briefing documents
-- [ ] Create scheduling system
+*Document: `course-mhh-cells-interlinked/content/examinations/final-examination-format.md`*
 
-#### Central Question
-- [ ] Finalize central question:
-  - [ ] "When, if ever, is a test of humanity justified?"
-  - [ ] OR similar question
-- [ ] Prepare follow-up questions for each position
-- [ ] Design rubric
+#### Design ✅
+- [x] Define format: 90 minutes, 3 phases
+  - [x] Phase 1: Capstone Defense (40 min) — Present and defend AI system
+  - [x] Phase 2: The Impossibility Argument (25 min) — Argue both sides of undecidable question
+  - [x] Phase 3: The Refusal (25 min) — Personal statement on what you refuse
+- [x] Define outcomes:
+  - [x] Pass: Receives credential
+  - [x] Revise: Opportunity to strengthen (2-4 weeks)
+  - [x] Refuse: Valid, documented pedagogical outcome
+- [ ] Write panel briefing documents for each faculty agent
+- [ ] Create scheduling system (individual slots, final 2 weeks)
 
-#### Refuse Pathway
-- [ ] Define what "Refuse" means as outcome
+#### Faculty Panel ✅
+- [x] Primary Examiner: Philip K. Dick
+- [x] Secondary Examiner: Joseph Weizenbaum or Vladimir Nabokov
+- [x] Observer: Human course administrator
+- [ ] Create examination mode prompts for each faculty agent
+- [ ] Design agent coordination protocol during examination
+
+#### Phase 1: Capstone Defense ✅
+- [x] 15 min presentation, 25 min interrogation
+- [x] Each faculty challenges from their perspective:
+  - [x] Dick: Philosophical implications
+  - [x] Weizenbaum: Ethics of deception
+  - [x] Nabokov: Aesthetic dimension
+- [x] Evaluation criteria defined
+- [ ] Create fallback procedures for technical failures
+- [ ] Design demonstration environment/sandbox
+
+#### Phase 2: The Impossibility Argument ✅
+- [x] 3 sample scenarios created:
+  - [x] AI romantic partner revelation
+  - [x] AI-assisted job candidate
+  - [x] AI-authored literary prize
+- [ ] Create 10+ additional scenarios
+- [ ] Create scenario selection randomization system
+- [x] Evaluation criteria defined
+
+#### Phase 3: The Refusal ✅
+- [x] Format: 5 min opening, 15 min dialogue, 5 min closing
+- [x] Prompt defined: "What test would you refuse?"
+- [x] Faculty probing questions outlined
+- [x] Evaluation criteria defined
 - [ ] Create refusal documentation template
-- [ ] Design alternative credential (if any)
-- [ ] Ensure dignity in refusal process
+- [ ] Design refusal archive (anonymized for future pedagogy)
+
+#### Refuse Pathway ✅
+- [x] Define what "Refuse" means as outcome
+- [x] Refusal criteria:
+  - [x] Plagiarism/dishonesty
+  - [x] Inability to engage opposing viewpoints
+  - [x] Positions incompatible with professional ethics
+  - [x] Contempt for examination process
+- [x] 6-month petition period for reconsideration
+- [ ] Create refusal documentation template
+- [ ] Design appeal process
 
 #### Peer Review: Final Examination Materials
 - [ ] Self-review: Ensure central question is genuinely open

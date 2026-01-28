@@ -10,12 +10,279 @@
 |-----------|-------------------|-------------------|---------------------------|
 | Landing Page | 🟡 Draft | 🟡 Draft | 🟡 Draft |
 | Content | 🟡 Skeleton | 🟡 Skeleton | 🟡 Skeleton |
+| Syllabus | 🔴 Not Started | 🟢 Complete | 🔴 Not Started |
 | Faculty Agents | 🟡 Defined | 🔴 Not Built | 🔴 Not Built |
 | Assessment | 🟡 Designed | 🟡 Designed | 🟡 Designed |
+| Simulated Testing | 🔴 Not Started | 🔴 Not Started | 🔴 Not Started |
 | Payments | 🔴 Not Set Up | 🔴 Not Set Up | 🔴 Not Set Up |
 | Marketing | 🔴 Not Started | 🔴 Not Started | 🔴 Not Started |
 
 **Legend:** 🟢 Complete | 🟡 In Progress | 🔴 Not Started
+
+---
+
+## 🚨 CRITICAL CONTENT GAPS (From Student Perspective Review)
+
+*Identified 2026-01-27. These are blocking issues that would confuse or frustrate enrolled students.*
+
+### HIGH PRIORITY — Structural
+
+#### Syllabi (All Seasons)
+- [ ] **S0 Syllabus** — Create `course-mhh-electric-sheep/content/syllabus.md`
+  - [ ] Map 7 modules to suggested timeline (self-paced)
+  - [ ] Define "completion" for S0
+  - [ ] Clarify optional artifact submission
+- [ ] **S1 Syllabus** — Create `course-mhh-voight-kampff/content/syllabus.md`
+  - [ ] 14-week schedule with specific dates
+  - [ ] Module → week mapping
+  - [ ] Assignment due dates
+  - [ ] Symposium schedule (6 + 1)
+  - [ ] Office hours schedule
+  - [ ] Examination window
+- [ ] **S2 Syllabus** — Create `course-mhh-cells-interlinked/content/syllabus.md`
+  - [ ] 14-week schedule
+  - [ ] Capstone milestones
+  - [ ] Final examination scheduling
+
+#### S1 Technical Infrastructure
+- [ ] **Setup Guide** — Create `course-mhh-voight-kampff/content/setup-guide.md`
+  - [ ] Python environment (version, venv)
+  - [ ] Required packages (requirements.txt)
+  - [ ] IDE recommendations
+  - [ ] GitHub Classroom onboarding
+  - [ ] Test that setup works on Mac/Windows/Linux
+- [ ] **Starter Code Repository**
+  - [ ] Create `course-mhh-voight-kampff-starter` repo
+  - [ ] Skeleton for each implementation assignment
+  - [ ] Test suites for validation
+  - [ ] Example inputs/outputs
+- [ ] **Datasets**
+  - [ ] Conversation corpus for Turing Test module
+  - [ ] Labeled physiological response data (or synthetic)
+  - [ ] LLM vs human text samples
+  - [ ] Document data sources and licenses
+
+#### Missing S1 Content
+- [ ] **CAPTCHA Module** — Marketing promises "build a basic CAPTCHA system"
+  - [ ] Create `course-mhh-voight-kampff/content/modules/03-captcha-systems.md`
+  - [ ] Or remove CAPTCHA from landing page if cut
+  - [ ] Renumber subsequent modules if adding
+- [ ] **Move Catfishing Module** from S2 → S1
+  - [ ] Delete `course-mhh-cells-interlinked/content/modules/09-ai-catfishing.md`
+  - [ ] Content already integrated into S1 Module 03 (Empathy Measures)
+  - [ ] Update S2 module numbering
+
+#### Assessment Operationalization
+- [ ] **S1 Rubrics** — Create `course-mhh-voight-kampff/content/rubrics/`
+  - [ ] Code assignment rubric (functionality, style, documentation)
+  - [ ] Written assignment rubric (argument, evidence, engagement)
+  - [ ] Maieutic examination rubric
+  - [ ] What specifically triggers "Revise" vs "Pass"?
+- [ ] **S2 Rubrics** — Create `course-mhh-cells-interlinked/content/rubrics/`
+  - [ ] Capstone evaluation criteria
+  - [ ] Baseline Test scoring guide
+  - [ ] Refusal documentation template
+
+### MEDIUM PRIORITY — Student Support
+
+#### S0 Reading Guide
+- [ ] Create `course-mhh-electric-sheep/content/reading-guide.md`
+  - [ ] "How to Read Dick" introduction (biographical context)
+  - [ ] Chapter-by-chapter summaries
+  - [ ] Key passages to note
+  - [ ] Comparison with Blade Runner (1982)
+  - [ ] Comparison with Blade Runner 2049
+  - [ ] Glossary of Dick's terminology (Mercerism, Penfield, etc.)
+
+#### Symposium Documentation
+- [ ] **Facilitator Guide** — Create `course-mhh-core/docs/symposium-facilitator-guide.md`
+  - [ ] Session structure (opening, discussion, heretic challenge, closing)
+  - [ ] How to manage faculty agents during live session
+  - [ ] Handling difficult discussions
+  - [ ] Technical setup (Matrix/Zoom)
+- [ ] **Student Preparation Guide** — Create in each season
+  - [ ] What to read before each symposium
+  - [ ] How to prepare a position
+  - [ ] Heretic seat volunteer process
+- [ ] **Sample Symposium Arc**
+  - [ ] Write up one complete symposium as example
+
+#### Faculty Agent Documentation
+- [ ] **System Prompts** — Create `course-mhh-core/agents/`
+  - [ ] `a.turing.md` — System prompt, voice, boundaries
+  - [ ] `a.dick.md`
+  - [ ] `a.weizenbaum.md`
+  - [ ] `a.arendt.md`
+  - [ ] `a.shannon.md`
+  - [ ] `a.foucault.md`
+  - [ ] `a.nabokov.md`
+- [ ] **Example Dialogues**
+  - [ ] Student-faculty dialogue samples (3-5 per agent)
+  - [ ] Show range of interaction styles
+- [ ] **Access Instructions**
+  - [ ] How students initiate dialogue
+  - [ ] Platform (chat interface? scheduled? async?)
+  - [ ] Response time expectations
+
+#### Student Support Structure
+- [ ] **Office Hours**
+  - [ ] Define schedule for S1/S2
+  - [ ] Platform (Zoom? Matrix?)
+  - [ ] Who staffs them (human? AI?)
+- [ ] **Community Space**
+  - [ ] Set up Matrix room/Discord server
+  - [ ] Moderation guidelines
+  - [ ] Peer study group formation
+- [ ] **Help Resources**
+  - [ ] FAQ for common technical issues
+  - [ ] "I'm stuck" flowchart
+  - [ ] Contact for urgent issues
+
+### LOWER PRIORITY — Polish
+
+#### Reference Materials
+- [ ] **Glossary** — Create `course-mhh-core/docs/glossary.md`
+  - [ ] Maieutic examination
+  - [ ] Heretic seat
+  - [ ] Affective computing
+  - [ ] Voight-Kampff
+  - [ ] ELIZA effect
+  - [ ] Goodhart's Law
+  - [ ] etc.
+- [ ] **Master Bibliography**
+  - [ ] Compile all readings across seasons
+  - [ ] Categorize by topic
+  - [ ] Note which are required vs optional
+- [ ] **Certificate/Badge Mockups**
+  - [ ] Design "Voight-Kampff Engineer" badge
+  - [ ] Design "More Human Than Human" certificate
+  - [ ] Define what information they contain
+
+#### Accessibility
+- [ ] **Accessibility Statement**
+  - [ ] How deaf students participate in symposia (captions? transcripts?)
+  - [ ] Screen reader compatibility
+  - [ ] Color contrast compliance
+  - [ ] Alternative formats for readings
+
+#### Submission Infrastructure
+- [ ] **Assignment Submission Guidelines**
+  - [ ] File naming conventions
+  - [ ] GitHub Classroom workflow
+  - [ ] Late policy
+  - [ ] Plagiarism policy
+  - [ ] AI assistance policy (ironic but necessary)
+
+---
+
+## 🤖 Simulated Student Testing
+
+*Before real enrollment, run AI-simulated students through the course to identify issues.*
+
+### Purpose
+- Test content pacing and difficulty
+- Identify unclear instructions
+- Validate assignment feasibility
+- Stress-test faculty agent interactions
+- Generate example submissions for rubric calibration
+
+### Simulated Student Personas
+
+#### S0: Electric Sheep (3 personas)
+- [ ] **Curious Beginner** — No tech background, strong humanities interest
+  - [ ] Run through all 7 modules
+  - [ ] Complete reflection prompts
+  - [ ] Attempt optional artifact
+  - [ ] Document confusion points
+- [ ] **Skeptical Engineer** — Senior dev, skeptical of "soft" content
+  - [ ] Run through modules looking for rigor gaps
+  - [ ] Challenge philosophical claims
+  - [ ] Test faculty agent depth
+- [ ] **Time-Constrained Professional** — Limited hours, wants efficiency
+  - [ ] Complete at minimum viable engagement
+  - [ ] Identify essential vs. optional content
+  - [ ] Time each module
+
+#### S1: Voight-Kampff (4 personas)
+- [ ] **Strong Coder, Weak Philosophy** — Can code, struggles with theory
+  - [ ] Complete all technical assignments
+  - [ ] Attempt written analyses
+  - [ ] Flag where philosophy feels disconnected
+- [ ] **Strong Philosophy, Weak Coder** — Humanities PhD, learning to code
+  - [ ] Attempt technical assignments with starter code
+  - [ ] Identify scaffolding gaps
+  - [ ] Excel at written components
+- [ ] **Adversarial Student** — Tries to game assignments, minimal effort
+  - [ ] Find loopholes in rubrics
+  - [ ] Test AI-assistance detection
+  - [ ] Attempt to pass with shortcuts
+- [ ] **Ideal Student** — Engaged, follows instructions, asks good questions
+  - [ ] Complete everything as intended
+  - [ ] Generate exemplar submissions
+  - [ ] Provide "gold standard" for rubric
+
+#### S2: Cells Interlinked (3 personas)
+- [ ] **S1 High Performer** — Passed S1 with flying colors
+  - [ ] Build ambitious capstone
+  - [ ] Challenge faculty in examination
+  - [ ] Test upper bound of expectations
+- [ ] **S1 Revise Graduate** — Struggled, passed on revision
+  - [ ] Test whether S2 is accessible to this level
+  - [ ] Identify assumed knowledge gaps
+- [ ] **Philosophical Objector** — Takes "Refuse" seriously
+  - [ ] Engage deeply with refusal protocols
+  - [ ] Test examination handling of principled refusal
+  - [ ] Document the Refuse pathway
+
+### Simulation Protocol
+
+#### Phase 1: Content Walkthrough
+- [ ] Create prompts for each persona
+- [ ] Run LLM (Claude) as simulated student
+- [ ] Document all outputs
+- [ ] Flag issues encountered
+
+#### Phase 2: Assignment Completion
+- [ ] Have simulated students complete assignments
+- [ ] Grade submissions using rubrics
+- [ ] Identify rubric ambiguities
+- [ ] Adjust difficulty if needed
+
+#### Phase 3: Faculty Interaction
+- [ ] Simulate office hours conversations
+- [ ] Test faculty agent responses to edge cases
+- [ ] Simulate symposium participation
+- [ ] Test maieutic examination format
+
+#### Phase 4: Full Run-Through
+- [ ] **S0 Full Simulation** — One persona, complete season
+  - [ ] Time: ~15 hours simulated
+  - [ ] Document full journey
+- [ ] **S1 Full Simulation** — One persona, 14-week compressed
+  - [ ] Complete all assignments
+  - [ ] Attend simulated symposia
+  - [ ] Take maieutic examination
+- [ ] **S2 Full Simulation** — One persona, through capstone
+  - [ ] Build actual capstone project
+  - [ ] Take Baseline Test examination
+
+### Outputs
+
+- [ ] **Issue Log** — All problems encountered
+- [ ] **Exemplar Submissions** — Example work at Pass/Revise threshold
+- [ ] **Timing Data** — How long each component actually takes
+- [ ] **FAQ Draft** — Questions simulated students asked
+- [ ] **Rubric Revisions** — Based on grading simulated work
+
+### Schedule
+
+| Phase | Target Date | Status |
+|-------|-------------|--------|
+| Persona prompts created | Pre-launch -8 weeks | 🔴 |
+| S0 simulations complete | Pre-launch -6 weeks | 🔴 |
+| S1 simulations complete | Pre-launch -4 weeks | 🔴 |
+| S2 simulations complete | Pre-launch -2 weeks | 🔴 |
+| Issues resolved | Pre-launch -1 week | 🔴 |
 
 ---
 

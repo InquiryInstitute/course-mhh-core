@@ -302,6 +302,74 @@ const seasons = [
       </div>
     </section>
 
+    <!-- Investment -->
+    <section class="mb-20">
+      <h2 class="font-display text-3xl text-zinc-100 mb-6">Investment</h2>
+      <div class="border border-zinc-800 rounded-lg p-8 bg-zinc-900/30">
+        <div class="grid md:grid-cols-4 gap-6 text-center mb-8">
+          <div class="p-4">
+            <p class="font-mono text-amber-500 text-sm mb-2">SEASON 0</p>
+            <p class="text-3xl text-zinc-100 font-display mb-1">$300</p>
+            <p class="text-zinc-500 text-sm">Self-paced</p>
+          </div>
+          <div class="p-4">
+            <p class="font-mono text-cyan-500 text-sm mb-2">SEASON 1</p>
+            <p class="text-3xl text-zinc-100 font-display mb-1">$1,200</p>
+            <p class="text-zinc-500 text-sm">14 weeks</p>
+          </div>
+          <div class="p-4">
+            <p class="font-mono text-rose-500 text-sm mb-2">SEASON 2</p>
+            <p class="text-3xl text-zinc-100 font-display mb-1">$1,200</p>
+            <p class="text-zinc-500 text-sm">14 weeks</p>
+          </div>
+          <div class="p-4 border-l border-zinc-700">
+            <p class="font-mono text-zinc-500 text-sm mb-2">TOTAL</p>
+            <p class="text-3xl text-zinc-100 font-display mb-1">$2,400</p>
+            <p class="text-zinc-500 text-sm">Full certificate</p>
+          </div>
+        </div>
+        <div class="border-t border-zinc-800 pt-6 space-y-2 text-zinc-400 text-sm">
+          <p>• S0 tuition credits toward S1 (net S1 cost: $900 after S0)</p>
+          <p>• Each season can be taken individually with its own credential</p>
+          <p>• Need-based scholarships available for S1 and S2</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- What You'll Gain -->
+    <section class="mb-20">
+      <h2 class="font-display text-3xl text-zinc-100 mb-6">What You'll Gain</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="border border-zinc-800 rounded-lg p-6 bg-zinc-900/30">
+          <h3 class="font-mono text-rose-500 text-sm mb-4">TECHNICAL SKILLS</h3>
+          <ul class="space-y-3 text-zinc-300 text-sm">
+            <li>• Build CAPTCHA and detection systems</li>
+            <li>• Implement behavioral biometrics</li>
+            <li>• Design adversarial test suites</li>
+            <li>• Create conversational AI systems</li>
+          </ul>
+        </div>
+        <div class="border border-zinc-800 rounded-lg p-6 bg-zinc-900/30">
+          <h3 class="font-mono text-rose-500 text-sm mb-4">PHILOSOPHICAL DEPTH</h3>
+          <ul class="space-y-3 text-zinc-300 text-sm">
+            <li>• Ethics of verification systems</li>
+            <li>• Power dynamics in classification</li>
+            <li>• Limits of knowability</li>
+            <li>• Principled refusal</li>
+          </ul>
+        </div>
+        <div class="border border-zinc-800 rounded-lg p-6 bg-zinc-900/30">
+          <h3 class="font-mono text-rose-500 text-sm mb-4">PROFESSIONAL VALUE</h3>
+          <ul class="space-y-3 text-zinc-300 text-sm">
+            <li>• Portfolio of original projects</li>
+            <li>• Oral defense experience</li>
+            <li>• Stackable credentials</li>
+            <li>• Faculty letter available</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
     <!-- FAQ -->
     <section class="mb-20">
       <h2 class="font-display text-3xl text-zinc-100 mb-8">Frequently Asked Questions</h2>
@@ -311,9 +379,9 @@ const seasons = [
             Do I need to know how to code?
           </summary>
           <div class="px-6 pb-6 text-zinc-400">
-            Season 0 requires no coding. Season 1 involves building simplified detection systems 
-            in Python/JavaScript — basic programming experience is expected. We provide scaffolding 
-            and peer support for those stretching their skills.
+            <strong class="text-zinc-300">Season 0:</strong> No coding required.<br/>
+            <strong class="text-zinc-300">Season 1:</strong> Basic Python/JavaScript expected. You'll build simplified detection systems. We provide starter code and peer support.<br/>
+            <strong class="text-zinc-300">Season 2:</strong> Intermediate programming. You'll build a conversational AI system.
           </div>
         </details>
         <details class="border border-zinc-800 rounded-lg bg-zinc-900/30">
@@ -321,18 +389,42 @@ const seasons = [
             What's the time commitment?
           </summary>
           <div class="px-6 pb-6 text-zinc-400">
-            Season 0: Self-paced, ~10-15 hours total. Seasons 1-2: Cohort-based, expect 8-10 hours/week 
-            including symposia, reading, and implementation work.
+            <strong class="text-zinc-300">Season 0:</strong> Self-paced, ~10-15 hours total. Complete anytime before May 2026.<br/><br/>
+            <strong class="text-zinc-300">Seasons 1-2 (per week):</strong><br/>
+            • 2-3 hrs: Reading and reflection<br/>
+            • 3-4 hrs: Implementation work<br/>
+            • 2 hrs: Symposium (live, scheduled)<br/>
+            • 1 hr: Office hours (optional)<br/>
+            <em>Total: 8-10 hours/week for 14 weeks</em>
           </div>
         </details>
         <details class="border border-zinc-800 rounded-lg bg-zinc-900/30">
           <summary class="p-6 cursor-pointer text-zinc-100 hover:text-rose-400 transition-colors font-medium">
-            Are the faculty real people?
+            Are the faculty real people? How do I interact with them?
           </summary>
           <div class="px-6 pb-6 text-zinc-400">
             No. Faculty are AI reconstructions of historical thinkers — designed to embody their 
             intellectual positions and challenge your thinking. They are explicitly artificial, 
-            and this is part of the point.
+            and this is part of the point.<br/><br/>
+            <strong class="text-zinc-300">Interaction modes:</strong><br/>
+            • <strong>Symposia:</strong> Live sessions where faculty hold positions and can be challenged<br/>
+            • <strong>Office hours:</strong> Scheduled one-on-one dialogue via text or voice<br/>
+            • <strong>Examinations:</strong> Oral defense with a faculty panel<br/>
+            • <strong>Async:</strong> Written dialogue for reflection exercises
+          </div>
+        </details>
+        <details class="border border-zinc-800 rounded-lg bg-zinc-900/30">
+          <summary class="p-6 cursor-pointer text-zinc-100 hover:text-rose-400 transition-colors font-medium">
+            Is Season 0 required before Season 1?
+          </summary>
+          <div class="px-6 pb-6 text-zinc-400">
+            <strong class="text-zinc-300">Strongly recommended, not strictly required.</strong><br/><br/>
+            Season 0 provides essential philosophical grounding that Season 1 builds upon. 
+            Students who skip S0 often struggle with the conceptual framework. 
+            Additionally, S0's $300 tuition credits toward S1, making the effective cost 
+            of S1 just $900 if you complete S0 first.<br/><br/>
+            <em>Our recommendation: Start with Season 0. If you're an experienced AI practitioner 
+            with strong philosophy background, contact us about direct S1 admission.</em>
           </div>
         </details>
         <details class="border border-zinc-800 rounded-lg bg-zinc-900/30">
@@ -361,6 +453,37 @@ const seasons = [
           <div class="px-6 pb-6 text-zinc-400">
             Yes. We offer need-based scholarships for Seasons 1 and 2. Applications open with 
             enrollment. Season 0 is priced accessibly at $300.
+          </div>
+        </details>
+        <details class="border border-zinc-800 rounded-lg bg-zinc-900/30">
+          <summary class="p-6 cursor-pointer text-zinc-100 hover:text-rose-400 transition-colors font-medium">
+            Will this help my career? Are credentials recognized?
+          </summary>
+          <div class="px-6 pb-6 text-zinc-400">
+            <strong class="text-zinc-300">What you'll have:</strong><br/>
+            • Digital badges (S1: "Voight-Kampff Engineer", S2: "More Human Than Human" certificate)<br/>
+            • A portfolio of detection systems and AI projects<br/>
+            • Experience defending ideas in oral examination<br/>
+            • Faculty letters available upon request<br/><br/>
+            <strong class="text-zinc-300">Best for roles in:</strong><br/>
+            AI safety, trust & safety, AI policy, ethics committees, research, 
+            and positions requiring thoughtful engagement with AI verification.<br/><br/>
+            <em>This is not a certification mill. The credential signals depth of thought, 
+            not completion of requirements.</em>
+          </div>
+        </details>
+        <details class="border border-zinc-800 rounded-lg bg-zinc-900/30">
+          <summary class="p-6 cursor-pointer text-zinc-100 hover:text-rose-400 transition-colors font-medium">
+            What's a "symposium" and how does the "heretic seat" work?
+          </summary>
+          <div class="px-6 pb-6 text-zinc-400">
+            <strong class="text-zinc-300">Symposium format:</strong><br/>
+            A 2-hour live session (via video) where the cohort gathers with faculty agents 
+            to explore a central question. This is not a lecture — it's structured dialogue.<br/><br/>
+            <strong class="text-zinc-300">The Heretic Seat:</strong><br/>
+            Each symposium designates one faculty agent as "heretic" — required to argue 
+            the minority or contrarian position. This ensures genuine dialectic, not consensus-seeking. 
+            Students may also volunteer for the heretic seat.
           </div>
         </details>
       </div>

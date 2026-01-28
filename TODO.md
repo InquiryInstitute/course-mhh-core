@@ -10,9 +10,10 @@
 |-----------|-------------------|-------------------|---------------------------|
 | Landing Page | 🟡 Draft | 🟡 Draft | 🟡 Draft |
 | Content | 🟡 Skeleton | 🟡 Skeleton | 🟡 Skeleton |
-| Syllabus | 🔴 Not Started | 🟢 Complete | 🔴 Not Started |
+| Syllabus | 🟢 Complete | 🟢 Complete | 🟢 Complete |
+| Rubrics | N/A | 🟢 Complete | 🔴 Not Started |
 | Faculty Agents | 🟡 Defined | 🔴 Not Built | 🔴 Not Built |
-| Assessment | 🟡 Designed | 🟡 Designed | 🟡 Designed |
+| Assessment | 🟡 Designed | 🟢 Rubrics Done | 🟡 Designed |
 | Simulated Testing | 🔴 Not Started | 🔴 Not Started | 🔴 Not Started |
 | Payments | 🔴 Not Set Up | 🔴 Not Set Up | 🔴 Not Set Up |
 | Marketing | 🔴 Not Started | 🔴 Not Started | 🔴 Not Started |
